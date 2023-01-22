@@ -1,0 +1,29 @@
+<h2 class="text-success mb-5">Client List</h2>
+
+<table class="table table-hover table-striped mb-5">
+    <thead>
+        <tr>
+          <th scope="col">First Name</th>
+          <th scope="col">Last Name </th>
+          <th scope="col">Email Id</th>
+          <th scope="col">Phone</th>
+          <!--<th scope="col">Actions</th>-->
+        </tr>
+      </thead>
+      <tbody>
+       
+        <tr *ngFor="let employee of employees">
+          
+          <td>{{employee.firstName}}</td>
+          <td>{{employee.lastName}}</td>
+          <td>{{employee.emailId}}</td>
+          <td>{{employee.phone}}</td>
+       <!--   <td>
+            <button (click) ="updateEmployee(employee.id)" class="btn btn-info"> Update</button>
+            <button (click) ="deleteEmployee(employee.id)" class="btn btn-danger"> Delete</button>
+            <button (click) ="employeeDetails(employee.id)" class="btn btn-infos"> View</button>
+          </td>-->
+        </tr>
+      
+      </tbody>
+  </table>

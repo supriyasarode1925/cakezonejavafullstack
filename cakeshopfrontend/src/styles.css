@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar-nav li
+{
+    margin-right: 50px;
+}
+#navbarNav
+{
+    padding-left: 470px;
+}
+.navbar{
+    background-color: #055160;
+}
+.navbar .container-fluid
+{
+    flex-wrap: nowrap;
+}
+.navbar-brand img
+{
+    width: 15%;
+}
+.navbar-toggler
+{
+    background-color: black;
+    border-radius: 0;
+}
+
+.footer
+{
+   
+    margin-top: 300px;
+    width: 100%;
+    top:100%;
+    padding: 10px 0px;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+
+}
